@@ -48,7 +48,7 @@ st.write("""As mentioned above, this dataset contains the information about the 
 @st.cache_data
 def read_data():
     # Read in data
-    df = pd.read_parquet('https://github.com/Erik-02/Bike-shares/raw/main/base_dataset.parquet.gzip')
+    df = pd.read_parquet('https://github.com/Erik-02/Bike-shares/raw/main/data/base_dataset.parquet.gzip')
 
     return df
 
